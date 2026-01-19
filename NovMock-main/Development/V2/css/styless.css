@@ -1,0 +1,63 @@
+/* Center content both horizontally and vertically using Flexbox */
+.container {
+    display: flex;                 /* Use flexbox layout */
+    justify-content: center;      /* Center items horizontally */
+    align-items: center;          /* Center items vertically */
+
+    background-color: #F5CA5C;    /* Set light grey background color */
+    color: #226687; /* Set text color (a shade of blue) */
+}
+
+/* Style navigation list */
+nav ul {
+    list-style-type: none; /* Remove bullet points from list items */
+    margin: 10px;             /* Remove default margin */
+    padding: 10px;     /* Remove default padding */
+    display: flex;  /*Makes the stack across */
+    justify-content: flex-start;    /*stop vertically*/
+    gap: 30px;  /*Adds space between each link */
+    place-content: center;
+}
+
+/* Change text color on hover for nav list items */
+nav li:hover {
+    color: #112432; /* Dark purple color on mouse hover */
+}
+
+/* Set the background color of the entire page */
+body {
+    background-color: #5C87F5; /* Soft green background */
+}
+
+/* Style for elements with class "navi" */
+.navi {
+    background-color: #D4F451; /* Light blue background */
+    color: #112432;            /* Text color (blue shade) */
+}
+
+/* Style for the logo image */
+#logo {
+    height: 100px;
+    clip-path: circle(50%) /* Maintain aspect ratio */
+}
+
+/* Style for the header content container */
+
+#header{
+    background-color:#D4F451 ;
+}
+
+img {
+    height: 150px;
+
+}
+table, th, td {
+    border:1px solid black;
+}
+
+H1{
+    color:#112432 ;
+}
+p{
+    color: azure;
+}
