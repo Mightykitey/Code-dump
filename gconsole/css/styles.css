@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px #40816E ;
+}
+
+nav ul {
+    list-style-type: none; /* remove bullet point*/
+    margin: 0; /* remove any default margin*/
+    padding: 0; /* remove an default padding*/
+    display: flex;/*Makes the stack across */
+    justify-content: flex-start;/*stop vertically*/
+
+}
+nav a {
+    color: #40816E;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #4E4081;
+}
+
+body{
+    background-color: #1f2833;
+
+
+}
+h1,h2{
+    color: #14958c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+P{
+    color: #40816E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+figcaption{
+    color: #40816E;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    border: 2px solid #40816E;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aquamarine;
+}
+
+#DreamCast{
+  position: fixed;
+    bottom: 8px;
+    right: 16px;
+}
+
+#DS{
+    position: fixed;
+    bottom: 8px;
+    left: 16px;
+}
+
+#switch{
+    position: fixed;
+    bottom: 8px;
+    right: 16px;
+    width:25%;
+}
+#switch2{
+    position: fixed;
+    bottom: 8px;
+    left: 16px;
+    width: 25%
+
+}
+#ps{
+    position: fixed;
+    bottom: 8px;
+    left: 16px;
+}
+#xboxX{
+    position: fixed;
+    bottom: 8px;
+    right: 16px;
+    width:20%;
+}

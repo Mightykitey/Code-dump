@@ -1,0 +1,16 @@
+title{
+    text-align: center;
+    font-family: Impact, serif;
+    padding: 30px;
+    color: antiquewhite;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #66fcf1;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+/* Add background gradient for the entire page */
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(61, 9, 121, 1) 35%, rgba(98, 0, 255, 1) 100%);
+}
