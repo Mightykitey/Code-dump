@@ -1,0 +1,55 @@
+nav a {
+    color: honeydew;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #1f2833;
+}
+
+nav ul {
+
+    list-style-type: none; /* remove bullet point*/
+    margin: 0; /* remove any default margin*/
+    padding: 0; /* remove an default padding*/
+    display: flex;/*Makes the stack across */
+    justify-content: flex-start;/*stop vertically*/
+    background-color: #196992; /*optional*/
+}
+
+nav li:hover{
+    /*this make it when ever you hover over it with mice it change it colour*/
+}
+
+body{
+    background-color: #196992;
+}
+
+h1,h2,p,label{
+    color: honeydew;
+}
+
+.content{
+    display: flex;/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:1px, solid, peachpuff;
+    background-color: dimgray;
+    padding: 2px;
+}
+
+.good{
+    border: 5px, chartreuse;
+    background-color: chartreuse;
+}
+
+.bad{
+    border: 5px,tomato;
+    background-color: tomato;
+}
+
+

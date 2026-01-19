@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px red;
+}
+
+nav ul {
+    list-style-type: none; /* remove bullet point*/
+    margin: 0; /* remove any default margin*/
+    padding: 0; /* remove an default padding*/
+    display: flex;/*Makes the stack across */
+    justify-content: flex-start;/*stop vertically*/
+    background-color: #40816E; /*optional*/
+}
+nav li:hover{
+    background-color: #66fcf1;/*this make it when ever you hover over it with mice it change it colour*/
+}
+body{
+    background-color: beige;
+
+}
